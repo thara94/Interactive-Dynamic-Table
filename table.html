@@ -1,0 +1,97 @@
+  <!DOCTYPE html>
+  <html> <!--starting html-->
+
+  <head><!--the head section-->
+
+    <meta charset="utf-8" />
+
+    <link href="table.css" rel="stylesheet"> <!--to call the css stylesheet-->
+
+    <title>Interactive Dynamic Table</title> <!--the title of the html-->
+
+  </head> <!--end of head section-->
+
+  <body> <!--start a body section of html-->
+    <header> <!--header for the html-->
+        <h1>Interactive Dynamic Table</h1> <!--the showing title of the page-->
+    </header><!--end of header section-->
+    <div><!--starting the div part-->
+        <form > <!--starting form section-->
+          <label>Enter five numbers for the first table row:</label>  <!--lable for the first form section-->
+          <input type="number" id="num1" name="num1"> <!--asking for numbers inputs-->
+          <input type="number" id="num2" name="num2">
+          <input type="number" id="num3" name="num3">
+          <input type="number" id="num4" name="num4">
+          <input type="number" id="num5" name="num5">
+
+      <br> <!--break line-->
+      <br>
+
+        <label>Enter four numbers for the first table column:</label>  <!--lable for the second section of the form -->
+        <input type="number" id="numA" name="numA"> <!--asking for numbers inputs-->
+        <input type="number" id="numB" name="numB">
+        <input type="number" id="numC" name="numC">
+        <input type="number" id="numD" name="numD">
+
+      <br>
+        </form> <!--end of the form-->
+      <button onclick="Tablefunction()"><strong>Show Table</strong></button> <!-- button to call the javascript function-->
+
+      <br>  <!--break line-->
+      <br>  <!--break line-->
+      <div id = "tab">
+          <table id = "table"> <!--starting a table-->
+            <tr>  <!--first row-->
+              <th id = "first"></th>    <!--column header -->
+              <th id = "number1"></th>  <!--column header-->
+              <th id = "number2"></th>  <!--column header-->
+              <th id = "number3"></th>  <!--column header-->
+              <th id = "number4"></th>  <!--column header-->
+              <th id = "number5"></th>  <!--column header-->
+            </tr>
+
+            <tr>  <!--second row-->
+              <td id = "numberA"></td>
+              <td id = "2a"></td>
+              <td id = "3a"></td>
+              <td id = "4a"></td>
+              <td id = "5a"></td>
+              <td id = "6a"></td>
+            </tr>
+
+            <tr> <!--third row-->
+              <td id = "numberB"></td>
+              <td id = "2b"></td>
+              <td id = "3b"></td>
+              <td id = "4b"></td>
+              <td id = "5b"></td>
+              <td id = "6b"></td>
+            </tr>
+
+            <tr> <!--fourth row-->
+              <td id = "numberC"></td>
+              <td id = "2c"></td>
+              <td id = "3c"></td>
+              <td id = "4c"></td>
+              <td id = "5c"></td>
+              <td id = "6c"></td>
+            </tr>
+
+            <tr> <!--fifth row-->
+              <td id = "numberD"></td>
+              <td id = "2d"></td>
+              <td id = "3d"></td>
+              <td id = "4d"></td>
+              <td id = "5d"></td>
+              <td id = "6d"></td>
+            </tr>
+
+          </table> <!--end of the table-->
+         </div>
+
+
+    </div>
+
+    <script src="table.js"></script><!--to call the javascript-->
+  </body>
+  </html> <!--end of html-->
