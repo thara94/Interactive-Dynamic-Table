@@ -1,0 +1,70 @@
+div{
+  display:inline-block; /*to display the div sections inline block*/
+
+  padding:10px; /*set spacing with in the div to 10px*/
+}
+
+button{ /*button stayle*/
+  display:inline-block; /*to display in block*/
+  margin-top:25px;/*set spacing from to to 25px*/
+  margin-left:600px; /*set the left side spacing to 600px*/
+  padding:10px; /*set spacing with in button to 10 px */
+  background-color:#ff9933; /*set a background color*/
+  color:black; /*set a text color*/
+  border: 3px solid black; /*set a border to the button*/
+}
+
+  body{ /*body section stayle*/
+    background-color:#ffe0b3; /*set a background color*/
+    width:100%; /*set body width*/
+  	margin:auto; /*to set the the spacing round the body to auto*/
+    font-family: Arial, Helvetica, sans-serif; /*set the type of text style*/
+
+  }
+header{
+  text-align:center; /*set the align of the text to the center*/
+	height:100px; /*set the height of the header to 100px*/
+	padding-top:15px; /*set spacing with in the top of the header to 15px*/
+  font-family: Arial, Helvetica, sans-serif; /*set the type of text style*/
+}
+
+form{
+  text-align:left; /*set the align of the text to the left side*/
+
+}
+
+#tap{
+  margin-left:400px; /*set spacing to the table div section*/
+}
+
+
+table{
+  display:none; /*to hide the table*/
+  table-layout: auto; /*set the table layout to auto*/
+  padding:10px; /*set spacing with in the table to 10 px */
+  background-color:#ffffff; /*set a background color*/
+  color:black; /*set text color*/
+  margin-left:400px; /*set left spacing to 400px*/
+
+}
+
+th{
+  background-color:black; /*set a background color for the first row*/
+ color:#ffffff;/*set text color for the first row*/
+}
+
+th:nth-child(1){ /*set background color for the first squer in the first row*/
+  background-color:#ffffff;
+}
+
+th, td{
+  border:3px solid black; /*set border to the th and td of the table*/
+  padding:30px; /*set spacing with the td and th*/
+
+}
+
+td:nth-child(1){ /*stayle fot the first column*/
+  background-color:black; /*set background color*/
+  color:#ffffff; /*set a text color*/
+
+}
